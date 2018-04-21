@@ -1,0 +1,220 @@
+{
+    "show-week-numbers" : {
+        "type" : "switch",
+        "default" : true,
+        "description": "Show week numbers in calendar",
+        "tooltip": "Check this to show week numbers in the calendar."
+    },
+    "box-decoration": {
+        "type": "combobox",
+        "default" : 0,
+        "description" : "Decoration",
+        "options" : {
+            "None" : 0,
+            "Borders": 1,
+            "Borders and header": 2
+        },
+        "tooltip" : "Select the decoration you would like to use."
+    },
+    "random-numbers-options-separator": {
+        "type": "separator"
+    },
+    "random-numbers-options-header": {
+        "type": "header",
+        "description" : "Random numbers:"
+    },
+    "random-numbers-enabled": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Enable random numbers:",
+        "tooltip":  "Enable random numbers."
+    },
+    "random-numbers-min": {
+        "type": "spinbutton",
+        "default": 0,
+        "description" : "Min:",
+        "step": 1,
+        "min": -10000,
+        "max": 10000,
+        "units" : "number"
+    },
+    "random-numbers-max": {
+        "type": "spinbutton",
+        "default": 9,
+        "description" : "Max:",
+        "step": 1,
+        "units" : "number",
+        "min": -10000,
+        "max": 10000
+    },
+    "random-numbers-quantity": {
+        "type": "spinbutton",
+        "default": 6,
+        "min": 1,
+        "max": 100,
+        "units" : "number",
+        "description" : "Number of numbers:",
+        "step": 1
+    },
+    "random-numbers-unique": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Unique numbers:",
+        "tooltip":  "Unique numbers."
+    },
+    "cowsay-options-separator": {
+        "type": "separator"
+    },
+    "cowsay-options-header": {
+        "type": "header",
+        "description" : "Quotes:"
+    },
+    "quote-file": {
+        "default": "file:///usr/share/games/fortunes/literature",
+        "type": "filechooser", 
+        "description" : "File:", 
+        "allow-none" : false,
+        "select-dir" : false,
+        "value": "file:///usr/share/games/fortunes/literature"
+    },
+    "quote-delay": {
+        "default": 5,
+        "type": "spinbutton",
+        "min": 1,
+        "max": 1440,
+        "description" : "Update every:",
+        "units" : "minutes",
+        "step": 5 
+    },
+    "quote-max-height": {
+        "default": 500,
+        "type": "spinbutton",
+        "min": 1,
+        "max": 1000,
+        "description" : "Max height:",
+        "units" : "px",
+        "step": 50 
+    },
+    "font-options-separator": {
+        "type": "separator"
+    },
+    "font-options-header": {
+        "type": "header",
+        "description" : "Quote font options:"
+    },
+    "quote-font-size": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 8,
+        "max": 200,
+        "units": "pt",
+        "description" : "Font size:",
+        "step": 1
+    },
+    "quote-text-color" : {
+	    "type": "colorchooser",
+	    "default" : "rgb(221,221,221)",
+	    "description" : "Font color:",
+	    "tooltip" : "Click to select a new text color"
+    },
+    "quote-text-color-random": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Random text color",
+        "tooltip":  "Whether random text color."
+    },
+    "quote-text-color-animate": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Animate text color",
+        "tooltip":  "Whether animate text color."
+    },
+    "font-shadow-options-separator": {
+        "type": "separator"
+    },
+    "font-shadow-options-header": {
+        "type": "header",
+        "description" : "Quote text shadow effects:"
+    },
+    "quote-shadow-enabled": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Enable text shadow",
+        "tooltip":  "Enable text shadow."
+    },
+    "quote-horizontal-shadow": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+    	"units": "px",
+        "description" : "Horizontal shadow:",
+        "step": 1
+    },
+    "quote-vertical-shadow": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+    	"units": "px",
+        "description" : "Vertical shadow:",
+        "step": 1
+    },
+    "quote-shadow-blur": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+    	"units": "px",
+        "description" : "Shadow blur:",
+        "step": 1
+    },
+    "quote-shadow-color" : {
+	    "type": "colorchooser",
+	    "default" : "rgb(0,0,0)",
+	    "description" : "Shadow color:",
+	    "tooltip" : "Click to select a new text shadow color"
+    },    
+    "advanced-options-separator": {
+        "type": "separator"
+    },
+    "advanced-options-header": {
+        "type": "header",
+        "description": "Quote advanced options:"
+    },
+    "quote-fortune-params": {
+        "type": "entry",
+        "default": "",
+        "description": "Parameters for fortune:",
+        "tooltip": "E.g. -s, etc.  See README for more info."
+    },
+    "quote-ignore-input-file": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Ignore input file",
+        "tooltip":  "Use fortune's default behavior instead of an input file.  See README for more info."
+    },
+    "quote-use-cowsay": {
+        "type": "combobox",
+        "default" : 1,
+        "description" : "Cowsay",
+        "options" : {
+            "None" : 0,
+            "Cowsay": 1,
+            "Cowthink": 2
+        },
+        "tooltip" : "Use cowsay or cowthink."
+    },
+    "quote-cowsay-params": {
+        "type": "entry",
+        "default": "-b -d -g -p -s -t -w -y -W 33",
+        "description": "Parameters for cowsay:",
+        "tooltip": "E.g. -b -d -g -p -s -t -w -y"
+    },
+    "events-instance-name": {
+        "type": "generic",
+        "default": "default",
+        "description": "Event instance name",
+        "tooltip": "Do not change, this is modified by the Manage Events window."        
+    }
+}

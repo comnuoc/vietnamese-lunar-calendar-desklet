@@ -1,0 +1,143 @@
+.calendar-day-base.lunar-date-aware {
+    width: 32px;
+    height: 32px;
+}
+
+.calendar-work-day.lunar-date-aware,
+.calendar-nonwork-day.lunar-date-aware {
+    border: 1px;
+    border-color: rgba(219, 219, 219, .1);
+    border-image: none;
+}
+.calendar-today.lunar-date-aware {
+    background: rgba(0, 128, 255, .9);
+}
+
+.lunar-date-aware .lunar-date {
+    font-size: 7pt;
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, .6);
+    font-weight: bold;
+}
+.calendar-other-month-day.lunar-date-aware .lunar-date {
+    color: rgba(255, 255, 255, .3);
+}
+.lunar-date-aware .lunar-date.first {
+    color: rgba(64, 134, 255, .9);
+}
+.calendar-today.lunar-date-aware .lunar-date.first {
+    color: #fff;
+}
+.datemenu-lunar-date-label {
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+    font-size: 9pt;
+    margin: 5px 0;
+}
+.lunar-calendar-container {
+    border: 1px solid rgba(50, 50, 50, 0.9);
+    background-color: rgba(25,25,25,0.85);
+    padding: 6px 0 0 0;
+}
+/*
+.lunar-calendar-container .datemenu-date-label {
+    border-image: url('date-label.svg') 3;
+}
+*/
+
+.lunar-calendar-container .random-numbers-container {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.lunar-calendar-container .random-numbers-container .random-number {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid rgba(219, 219, 219, .1);
+    /* background-color: rgba(25,25,25,0.55); */
+    color: #EEE;
+    border-radius: 3px;
+}
+
+.lunar-calendar-container .today-event-item {
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.lunar-calendar-container .today-event-item:last-child {
+    margin-bottom: 0;
+}
+
+.lunar-calendar-container .today-event-item .today-event-title {
+    color: #75A8FF;
+}
+
+.lunar-calendar-container .today-event-item .today-event-date {
+    color: rgb(221,221,221);
+}
+
+.calendar-day-base.event-aware.red.lunar-date-aware,
+.calendar-work-day.event-aware.red.lunar-date-aware,
+.calendar-nonwork-day.event-aware.red.lunar-date-aware {
+    color: rgba(255, 77, 77, .9);
+}
+.calendar-other-month-day.event-aware.red.lunar-date-aware {
+    color: rgba(179, 0, 0, .6);
+}
+
+.calendar-day-base.event-aware.green.lunar-date-aware,
+.calendar-work-day.event-aware.green.lunar-date-aware,
+.calendar-nonwork-day.event-aware.green.lunar-date-aware {
+    color: rgba(117, 255, 135, .9);
+}
+.calendar-other-month-day.event-aware.green.lunar-date-aware {
+    color: rgba(0, 102, 0, .6);
+}
+
+.calendar-day-base.event-aware.blue.lunar-date-aware,
+.calendar-work-day.event-aware.blue.lunar-date-aware,
+.calendar-nonwork-day.event-aware.blue.lunar-date-aware {
+    color: rgba(77, 136, 255, .9);
+}
+.calendar-other-month-day.event-aware.blue.lunar-date-aware {
+    color: rgba(0, 19, 77, .6);
+}
+
+.calendar-day-base.event-aware.orange.lunar-date-aware,
+.calendar-work-day.event-aware.orange.lunar-date-aware,
+.calendar-nonwork-day.event-aware.orange.lunar-date-aware {
+    color: rgba(255, 163, 26, .9);
+}
+.calendar-other-month-day.event-aware.orange.lunar-date-aware {
+    color: rgba(204, 122, .6);
+}
+
+.calendar-day-base.event-aware.yellow.lunar-date-aware,
+.calendar-work-day.event-aware.yellow.lunar-date-aware,
+.calendar-nonwork-day.event-aware.yellow.lunar-date-aware {
+    color: rgba(255, 255, 0, .9);
+}
+.calendar-other-month-day.event-aware.yellow.lunar-date-aware {
+    color: rgba(230, 230, 0, .6);
+}
+
+.calendar-day-base.event-aware.violet.lunar-date-aware,
+.calendar-work-day.event-aware.violet.lunar-date-aware,
+.calendar-nonwork-day.event-aware.violet.lunar-date-aware {
+    color: rgba(204, 51, 255, .9);
+}
+.calendar-other-month-day.event-aware.violet.lunar-date-aware {
+    color: rgba(128, 0, 128, .6);
+}
+
+.calendar-day-base.event-aware.aqua.lunar-date-aware,
+.calendar-work-day.event-aware.aqua.lunar-date-aware,
+.calendar-nonwork-day.event-aware.aqua.lunar-date-aware {
+    color: rgba(51, 204, 255, .9);
+}
+.calendar-other-month-day.event-aware.aqua.lunar-date-aware {
+    color: rgba(51, 204, 255, .6);
+}
+
+
