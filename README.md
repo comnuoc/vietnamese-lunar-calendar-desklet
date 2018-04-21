@@ -9,3 +9,14 @@ Install [cowsay](https://en.wikipedia.org/wiki/Cowsay) and [fortune](https://en.
 2. Copy all files under `LunarCalendarDesklet@x/cows` to `/usr/share/cowsay/cows`.
 3. Copy all files under `LunarCalendarDesklet@x/fortunes` to `/usr/share/games/fortunes`.
 4. Add desklet `Lunar Calendar`.
+
+## Screenshots
+
+Desklet
+![Desklet](./imgs/desklet.png)
+
+Config
+![Config](./imgs/config.png)
+
+Manage events
+![Manage events](./imgs/manage-event.png)
