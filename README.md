@@ -20,3 +20,7 @@ Config
 
 Manage events
 ![Manage events](./imgs/manage-event.png)
+
+## References
+
+Inspired from [Quote of the day desklet](https://cinnamon-spices.linuxmint.com/desklets/view/16) and [Feeds Reader](https://cinnamon-spices.linuxmint.com/applets/view/149).
