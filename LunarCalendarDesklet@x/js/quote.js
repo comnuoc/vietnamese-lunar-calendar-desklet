@@ -57,7 +57,8 @@ Quote.prototype = {
         this.quoteButton = new St.Button();
         this.quoteButton.set_child(this.quote);
         this.quoteBox = new St.BoxLayout({
-            style_class: 'quote-container'
+            style_class: 'quote-container',
+            vertical: true
         });
         this.quoteBox.add(this.quoteButton);
         this.quoteButton.connect('clicked', Lang.bind(this, this._update));         
