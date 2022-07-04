@@ -60,7 +60,9 @@ Quote.prototype = {
             style_class: 'quote-container',
             vertical: true
         });
-        this.quoteBox.add(this.quoteButton);
+        this.quoteBox2 = new St.BoxLayout();
+        this.quoteBox2.add(this.quoteButton);
+        this.quoteBox.add(this.quoteBox2);
         this.quoteButton.connect('clicked', Lang.bind(this, this._update));         
         
         // Quote scroll
